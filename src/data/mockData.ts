@@ -2,10 +2,10 @@ import { Device, Measurement, Alert, User, ChartDataPoint } from "@/types";
 
 export const currentUser: User = {
   id: "u1",
-  name: "Arjun Mehta",
-  email: "arjun.mehta@APEX.de",
+  name: "Prajakta Naik",
+  email: "example@gmail.com",
   role: "Platform Admin",
-  avatarInitials: "AM",
+  avatarInitials: "PN"
 };
 
 export const devices: Device[] = [

@@ -26,7 +26,7 @@ export default function Sidebar() {
   return (
     <aside className="w-52 bg-background border-r flex flex-col py-4 shrink-0">
       <div className="px-4 pb-4 border-b mb-3">
-        <p className="font-semibold text-sm">GNXT Platform</p>
+        <p className="font-semibold text-sm">Monitr</p>
         <p className="text-xs text-muted-foreground mt-0.5">Measurement Systems</p>
       </div>
 
