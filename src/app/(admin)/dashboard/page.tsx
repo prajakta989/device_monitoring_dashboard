@@ -4,7 +4,7 @@ import { stats, devices, measurements, chartData } from "@/data/mockData";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import StatusBadge from "@/components/ui/StatusBadge";
-// import MeasurementChart from "@/components/ui/MeasurementChart";
+import MeasurementChart from "@/components/ui/Measurementchart";
 
 export default function DashboardPage() {
   const statCards = [
@@ -46,9 +46,9 @@ export default function DashboardPage() {
           <CardHeader>
             <CardTitle className="text-sm font-medium">Measurement readings — last 7 days</CardTitle>
           </CardHeader>
-          {/* <CardContent>
+          <CardContent>
             <MeasurementChart data={chartData} />
-          </CardContent> */}
+          </CardContent>
         </Card>
 
         <Card>
