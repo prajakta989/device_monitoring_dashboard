@@ -8,7 +8,10 @@ export function useAlerts() {
 
   const acknowledge = (id: string) => {
     setAlerts((prev) =>
-      prev.map((a) => (a.id === id ? { ...a, acknowledged: true } : a))
+      prev.map((a) => {
+        console.log("a:",a);
+        return a.id === id ? { ...a, acknowledged: true } : a;
+      }),
     );
   };
 
