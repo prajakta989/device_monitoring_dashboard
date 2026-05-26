@@ -40,9 +40,9 @@ export default function Login() {
     >
       <div className="w-full max-w-sm space-y-6">
         <div className="text-center">
-          <h1 className="text-2xl font-semibold">GNXT Platform</h1>
+          <h1 className="text-2xl font-semibold">Monitr</h1>
           <p className="text-muted-foreground text-sm mt-1">
-            Measurement Technology Management
+            Device Monitoring Platform
           </p>
         </div>
         <Card>
@@ -83,9 +83,6 @@ export default function Login() {
             </form>
           </CardContent>
         </Card>
-        <p className="text-center text-xs text-muted-foreground">
-          Demo: use any email + password to log in
-        </p>
       </div>
     </div>
   );
